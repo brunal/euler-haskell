@@ -1,0 +1,1 @@
+main = print $ (\x -> drop (length x - 10) x) $ show $ sum [n^n | n <- [1..1000]]
